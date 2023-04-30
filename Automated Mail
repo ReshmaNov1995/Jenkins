@@ -27,6 +27,10 @@ Advanced,
   Default Trigger - Always
   Apply & Save
   
+  
+Click on New Item,
+Give name & select Freestyle project -> Save.
+
   Dashboard->Email->Configuration,
   Popup will be opened. On that Pop up,
   Click on Advanced -> Enable Custom workspace give Project's path(E:\Automation\Practice_Selenium) in Directory.
