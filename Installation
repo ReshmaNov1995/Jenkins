@@ -1,0 +1,24 @@
+Download Jenkins war & Put it inside any folder.
+
+Goto the Folder, which has jenkins jar->click on cmd on the path.
+In Command prompt type, java -jar jenkins.war --httpPort=9092. Enter.
+Note: Can give any port number.
+The Command prompt will display, up & fully running.
+Goto browser & Enter, localhost:9092.
+
+Login using the admin us & password.
+Password will be on the path --> C:\Program Files\Jenkins\secrets\initialAdminPassword.
+UserName is Admin.Here is the Admin's password. 
+
+Can create account & sign in asusual.
+
+Account Creation,
+C:\Users\Reshma S\.jenkins\Config.xml open in notepad++
+  <useSecurity>true</useSecurity>  ---> Change false
+  In chrome, Enter localhost:9092.
+  Manage Jenkins->Configure Global security->Security Realm->Jenkins’ own user database enable Signup.
+  Then Click on Signup...
+  
+  To Close Jenkins click on Ctrl+C in command prompt.
+  
+
