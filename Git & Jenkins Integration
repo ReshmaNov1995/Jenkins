@@ -1,1 +1,17 @@
+Plugins,
+In Dashboard->Manage Jenkins->Plugins->select available tab & in search type ->Git
 
+
+Click on New Item,
+Give name & select Freestyle project -> Save.
+
+Dashboard->GitJenkinsIntegration->Configuration,
+  Popup will be opened. On that Pop up,
+   SourceCode Management -> Enable Git radio button.
+   Give url which is from the github->Code->url(Repository url)
+   In Build Triggers->Enable "Poll SCM".
+   Inside schedule, *  *  *  *  * (Mins,Hours,Days,Month,Year)
+   In Build Step->py GitJenkins.py
+   Apply & Save.
+   
+Then Run it.
