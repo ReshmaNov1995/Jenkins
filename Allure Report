@@ -1,0 +1,5 @@
+Gonna run pytest program from pycharm using jenkins & create Allure report using jenkins in pycharm.
+
+Plugins,
+In Dashboard->Manage Jenkins->Manage Plugins->select available tab & in search type -> Allure - then Download & Install it.
+In Dashboard->Manage Jenkins->Manage Plugins->select available tab & in search type -> Shining Panda - then Download & Install it.
