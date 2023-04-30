@@ -1,0 +1,9 @@
+Jenkins - It is a opensource Automation Server. It has developed in Java Language.
+It is used for Continuous Integration(CI) & Continuous Development(CD).
+Jenkins is one of the Devops tool.
+
+Devops(Development Operation) - Development & Delivery tool.
+
+Jenkins is used to Building, Testing & Deployment.
+It has enormous plugins, we can achieve using the plugins i.e., Continuous Integration.
+It 'll take the updated code while running i.e., Continuous Development.
