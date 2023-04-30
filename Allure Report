@@ -2,8 +2,8 @@ Gonna run pytest program from pycharm using jenkins & create Allure report using
 Note: This Ex, Create a folder for Allure report inside the pytest pgm folder.
 
 Plugins,
-In Dashboard->Manage Jenkins->Plugins->select available tab & in search type -> Allure - then Download & Install it.
-In Dashboard->Manage Jenkins->Plugins->select available tab & in search type -> Shining Panda - then Download & Install it.
+In Dashboard->Manage Jenkins->Plugins->select available tab & in search type -> Allure - then Install it.
+In Dashboard->Manage Jenkins->Plugins->select available tab & in search type -> Shining Panda - then Install it.
 
 Enviornment variable->Take allure path.
 E:\Automation\allure-2.17.3\allure-2.17.3
