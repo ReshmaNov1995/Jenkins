@@ -1,6 +1,6 @@
 Download Jenkins war & Put it inside any folder.
 
-Goto the Folder, which has jenkins jar->click on cmd on the path.
+Goto the Folder, which has jenkins.war->click on cmd on the path.
 In Command prompt type, java -jar jenkins.war --httpPort=9092. Enter.
 Note: Can give any port number.
 The Command prompt will display, up & fully running.
