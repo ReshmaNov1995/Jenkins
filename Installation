@@ -19,6 +19,6 @@ C:\Users\Reshma S\.jenkins\Config.xml open in notepad++
   Manage Jenkins->Configure Global security->Security Realm->Jenkins’ own user database enable Signup.
   Then Click on Signup...
   
-  To Close Jenkins click on Ctrl+C in command prompt.
+  To Close Jenkins click on Ctrl+C in command prompt. It will display message as "Jenkins Stopped".
   
 Restart - Do the close action & start action
