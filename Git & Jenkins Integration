@@ -14,8 +14,9 @@ Dashboard->GitJenkinsIntegration->Config/Configuration,
     Pycharm,
     pip freeze > kk.txt (All the package name with version will be copied in the txt file, Any name for the text file).
    Jenkins,
+   In Build Step-> Add Build step-> choose Execute window batch command-> 
    pip install -r kk.txt (-r for recovery).
-   In Build Step-> Add Build step-> choose Execute window batch command-> py GitJenkins.py (Pgm name which needs to run in Jenkins)
+   py GitJenkins.py (Pgm name which needs to run in Jenkins)
    Apply & Save.
    
 Then Run it.
