@@ -6,9 +6,11 @@ Click on New Item,
 Give some name(GitJenkinsIntegration) & select Freestyle project -> Save.
 
 Dashboard->GitJenkinsIntegration->Config/Configuration,
-  Popup will be opened. On that Pop up,
+  Popup will be opened. 
+  On that Pop up,
    **SourceCode Management** -> **Enable Git** radio button.
    **Pass the url** which is from the github->Code->url(Repository url)
+   
    In **Build Triggers->Enable "Poll SCM"**.
    Inside schedule, *  *  *  *  * (Mins,Hours,Days,Month,Year)
    
