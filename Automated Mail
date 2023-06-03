@@ -5,7 +5,7 @@ In Dashboard->Manage Jenkins->Plugins->select available tab & in search type -> 
 In Dashboard->Manage Jenkins->System->Email Notification. (Basic Mail)
 SMTP Server(smtp.gmail.com)
 Advanced,
-  Use SMTP Authentication->UN: , PSSWD.(Sender) Also "Less secure app" has to be enabled for the sender which resides inside the Manage Account.
+  Use SMTP Authentication->UN:Enter mail id , PSSWD:Enter password. Also "Less secure app" has to be enabled for the sender which resides inside the Manage Account.
   Use SSL
   Use TLS
   SMTP Port "465"
@@ -17,7 +17,7 @@ Advanced,
  SMTP Port "465"
 Advanced,
   Credentials-Add->Jenkins
-  Use SMTP Authentication->UN: , PSSWD.(Sender) Also "Less secure app" has to be enabled for the sender which resides inside the Manage Account.
+  Use SMTP Authentication->UN: , PSSWD: . Also "Less secure app" has to be enabled for the sender which resides inside the Manage Account.
   Enable - "Treat username as secret"(Sender name will be encrypted).
   Use SSL
   Use TLS
@@ -29,7 +29,7 @@ Advanced,
   
   
 Click on New Item,
-Give name & select Freestyle project -> Save.
+Give name(Email) & select Freestyle project -> Save.
 
   Dashboard->Email->Configuration,
   Popup will be opened. On that Pop up,
