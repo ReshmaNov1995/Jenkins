@@ -12,13 +12,16 @@ Apply & Save.
 
 Click on New Item,
 Give name & select Freestyle project -> Save.
+
 Configuration,
 Popup will be opened. On that Pop up,
   Click on Advanced -> **Enable Custom workspace** give Project's path(E:\Automation\Practice_Selenium) in Directory.
+  
   Click on Add build step-> choose "Execute windows batch command" -> Then type, **"call ./venv/Scripts/activate.bat"**(Venv folder->activate.bat's path)
   pip install pytest
   pytest -v -s --alluredir="allure report's path"  program name
   Ex: pytest -v -s --alluredir="test_Jenkins/AllureReports/Report1"  test_Jenkins/Test_Basicpytest.py
+  
   **Click on Add Post build action -> Allure Report -> Then give the path of the Allure Report.**
   Ex: test_Jenkins/AllureReports/Report1/
   Apply & Save.
