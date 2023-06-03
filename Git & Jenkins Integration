@@ -3,7 +3,7 @@ In Dashboard->Manage Jenkins->Plugins->select Available plugins tab & in search 
 
 
 Click on New Item,
-Give name & select Freestyle project -> Save.
+Give some name(GitJenkinsIntegration) & select Freestyle project -> Save.
 
 Dashboard->GitJenkinsIntegration->Config/Configuration,
   Popup will be opened. On that Pop up,
