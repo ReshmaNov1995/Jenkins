@@ -11,8 +11,10 @@ Dashboard->GitJenkinsIntegration->Config/Configuration,
    **Pass the url** which is from the github->Code->url(Repository url)
    In **Build Triggers->Enable "Poll SCM"**.
    Inside schedule, *  *  *  *  * (Mins,Hours,Days,Month,Year)
+   
     Pycharm,
     **pip freeze > kk.txt** (All the package name with version will be copied in the txt file, Any name for the text file).
+    
    Jenkins,
    In Build Step-> Add Build step-> choose Execute window batch command-> 
    **pip install -r kk.txt** (-r for recovery).
