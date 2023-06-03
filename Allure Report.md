@@ -7,19 +7,19 @@ In Dashboard->Manage Jenkins->Plugins->select available tab & in search type -> 
 
 Enviornment variable->Take allure path.
 E:\Automation\allure-2.17.3\allure-2.17.3
-In Dashboard->Manage Jenkins->Tools(Global tool configuration)->Allure commandline installations->disable "install automatically"->Give path in Installation directory then Allure Name.
+In Dashboard->Manage Jenkins->**Tools(Global tool configuration)->Allure commandline installations->disable "install automatically"->Give path in Installation directory then Allure Name.**
 Apply & Save.
 
 Click on New Item,
 Give name & select Freestyle project -> Save.
 Configuration,
 Popup will be opened. On that Pop up,
-  Click on Advanced -> Enable Custom workspace give Project's path(E:\Automation\Practice_Selenium) in Directory.
-  Click on Add build step-> choose "Execute windows batch command" -> Then type, "call ./venv/Scripts/activate.bat"(Venv folder->activate.bat's path)
+  Click on Advanced -> **Enable Custom workspace** give Project's path(E:\Automation\Practice_Selenium) in Directory.
+  Click on Add build step-> choose "Execute windows batch command" -> Then type, **"call ./venv/Scripts/activate.bat"**(Venv folder->activate.bat's path)
   pip install pytest
   pytest -v -s --alluredir="allure report's path"  program name
   Ex: pytest -v -s --alluredir="test_Jenkins/AllureReports/Report1"  test_Jenkins/Test_Basicpytest.py
-  Click on Add Post build action -> Allure Report -> Then give the path of the Allure Report.
+  **Click on Add Post build action -> Allure Report -> Then give the path of the Allure Report.**
   Ex: test_Jenkins/AllureReports/Report1/
   Apply & Save.
   
