@@ -21,6 +21,10 @@ Advanced,
 Advanced,
   **Credentials-Add->Jenkins**
   Use SMTP Authentication->UN: , PSSWD: . Also "Less secure app" has to be enabled for the sender which resides inside the Manage Account.
+  Credential mail is sender.
+  Receipent(cc) mail.
+  Reply to is receiver.
+  If you want to give default receipient or default reply to, Then go to corresponding field in system configuration & click on "?" from there copy it. Enter in Project Config.
   Enable - "Treat username as secret"(Sender name will be encrypted).
   Use SSL
   Use TLS
@@ -51,7 +55,7 @@ Give name(Email) & select Freestyle project -> Save.
   Project Name
   Default details
   Attach Build Log->Attach Build Log
-  Attachment from local "Path of the file with name & extension" ?
+  Attachment from local "Path of the file with name & extension" - It's global FTP requires.
   Add -> Developer
   Add Trigger->Always
   
