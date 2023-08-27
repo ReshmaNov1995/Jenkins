@@ -17,6 +17,8 @@ In Dashboard->**Manage Jenkins->System->Extended Email Notification.** (Advanced
 Click on **Add Post build action -> Editable Email Notification** Project Name Default details Attach Build Log->Attach Build Log Attachment from local "Path of the file with name & extension" - It's global FTP requires. 
 Add -> Developer **Add Trigger->Always**
 Apply & Save.
+**Add build step-> choose "Execute windows batch command"**
 
 100 to 200 Testcase will run using jenkins.
 Allure will integrated in jenkins, It will send report, Logs in mail.
+Refer crontab.guru for cron schedule
