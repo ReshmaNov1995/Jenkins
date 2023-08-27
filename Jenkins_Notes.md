@@ -2,7 +2,7 @@
     Push the Pycharm script in git then run in Jenkins.
     Config/Configuration, Popup will be opened. On that Pop up, **SourceCode Management -> Enable Git** radio button. 
     Pass the url which is from the github->Code->url(Repository url)
-    **In Build Triggers->Enable "Poll SCM". Inside schedule, * * * * * (Mins,Hours,Days,Month,Year)**
+    **In Build Triggers->Enable "Poll SCM". Inside cron schedule, * * * * * (Mins,Hours,Days,Month,Year)**
     **In Build Step-> Add Build step-> choose Execute window batch command**-> pip install -r kk.txt (-r for recovery). 
     py GitJenkins.py (Pgm name which needs to run in Jenkins) 
     Apply & Save.
