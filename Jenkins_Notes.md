@@ -19,4 +19,4 @@ Add -> Developer **Add Trigger->Always**
 Apply & Save.
 
 100 to 200 Testcase will run using jenkins.
-Allure will integrated in k=jenkins, It will send report, Log in mail.
+Allure will integrated in jenkins, It will send report, Logs in mail.
