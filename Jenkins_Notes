@@ -12,5 +12,9 @@
     Click on Add Post build action -> Allure Report -> Then give the path of the Allure Report. Ex: test_Jenkins/AllureReports/Report1/ Apply & Save.
 3) Automated Mail:
 In Dashboard->Manage Jenkins->System->Extended Email Notification. (Advanced Mail) SMTP Server(smtp.gmail.com) SMTP Port "465"
-Click on Add Post build action -> Editable Email Notification Project Name Default details Attach Build Log->Attach Build Log Attachment from local "Path of the file with name & extension" - It's global FTP requires. Add -> Developer Add Trigger->Always
+Click on Add Post build action -> Editable Email Notification Project Name Default details Attach Build Log->Attach Build Log Attachment from local "Path of the file with name & extension" - It's global FTP requires. 
+Add -> Developer Add Trigger->Always
 Apply & Save.
+
+100 to 200 Testcase will run using jenkins.
+Allure will integrated in k=jenkins, It will send report, Log in mail.
